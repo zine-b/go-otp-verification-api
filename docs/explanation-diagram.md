@@ -1,0 +1,10 @@
+flowchart TD
+    Client["Client sends OTP request"] --> API["Go HTTP API"]
+    API --> RateLimiter["Check rate limit"]
+    RateLimiter --> Generate["Generate secure OTP"]
+    Generate --> Hash["Hash OTP code"]
+    Hash --> Store["Store OTP with expiration"]
+    Store --> Send["Send OTP through SMS provider"]
+    Send --> Verify["User submits OTP code"]
+    Verify --> Validate["Validate code, expiration and attempts"]
+    Validate --> Result["Return success or error"]
