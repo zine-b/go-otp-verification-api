@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     subgraph External["External World"]
         Client["Client / Frontend / Mobile App"]
@@ -51,3 +52,4 @@ flowchart TB
     OTPRepoAdapter --> DB
     SmsAdapter --> SMS
     RateLimiterAdapter --> Cache
+```

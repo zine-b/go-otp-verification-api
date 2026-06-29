@@ -1,4 +1,5 @@
-erDiagram
+```mermaid
+Diagram
     OTP {
         string id
         string phone_number
@@ -19,3 +20,4 @@ erDiagram
     }
 
     OTP ||--o{ RATE_LIMIT : "controlled_by"
+```

@@ -1,3 +1,5 @@
+```mermaid
+
 stateDiagram-v2
     [*] --> Created
 
@@ -14,3 +16,4 @@ stateDiagram-v2
     Verified --> [*]
     Blocked --> [*]
     Expired --> [*]
+```

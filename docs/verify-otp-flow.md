@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     actor User
     participant Handler as HTTP Handler
@@ -33,3 +35,4 @@ sequenceDiagram
             Handler-->>User: 200 OTP verified
         end
     end
+```

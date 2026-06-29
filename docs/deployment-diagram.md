@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     Dev["Developer"] --> GitHub["GitHub Repository"]
 
@@ -17,3 +18,4 @@ flowchart LR
     API --> DB
     API --> Redis
     API --> SMS["External SMS Provider"]
+```

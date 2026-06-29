@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     actor User
     participant Handler as HTTP Handler
@@ -26,3 +28,4 @@ sequenceDiagram
         UseCase-->>Handler: Success
         Handler-->>User: 200 OTP sent
     end
+```

@@ -1,3 +1,5 @@
+```mermaid
+
 flowchart TD
     Client["Client sends OTP request"] --> API["Go HTTP API"]
     API --> RateLimiter["Check rate limit"]
@@ -8,3 +10,4 @@ flowchart TD
     Send --> Verify["User submits OTP code"]
     Verify --> Validate["Validate code, expiration and attempts"]
     Validate --> Result["Return success or error"]
+```
