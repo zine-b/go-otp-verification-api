@@ -1,3 +1,3 @@
 ## Diagrams
 
-- [Application diagrams](docs)# go-otp-verification-api
+- [Application diagrams](docs/architecture.md)# go-otp-verification-api
